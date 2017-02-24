@@ -21,7 +21,7 @@ case object Level2  {
   val singleVal = GenLens[Level2](_.singleVal)
   val listVal = GenLens[Level2](_.listVal)
   val eitherVal = GenLens[Level2](_.eitherVal)
-  val optionVal = GenLens[Level1](_.optionVal)
+  val optionVal = GenLens[Level2](_.optionVal)
 
 }
 
